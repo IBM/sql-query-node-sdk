@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.0...v1.0.1) (2021-01-29)
+
+
+### Bug Fixes
+
+* mark as public ([#3](https://github.com/IBM/sql-query-node-sdk/issues/3)) ([764fe28](https://github.com/IBM/sql-query-node-sdk/commit/764fe28b73028e5052d5af1cfdd3af1899179b1a))
+
 # 1.0.0 (2021-01-29)
 
 
