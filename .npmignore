@@ -1,0 +1,12 @@
+test
+coverage
+.travis.yml
+scripts/
+tslint.json
+.eslintrc.js
+.eslintcache
+.eslintignore
+.github
+.huskyrc
+*.ts
+!*.d.ts

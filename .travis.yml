@@ -1,0 +1,25 @@
+language: node_js
+
+sudo: false
+
+node_js:
+- 10
+- 12
+
+script:
+- npm run build
+- npm run test-travis || travis_terminate 1
+- npm run lint
+- npm run check-packages
+# - sh scripts/typedoc/generate_typedoc.sh currently in progress
+
+after_success:
+- npm run report-coverage
+
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: npx semantic-release
+  on:
+    node: 12
+    branch: main
