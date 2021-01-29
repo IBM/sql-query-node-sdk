@@ -65,6 +65,9 @@
     "typedoc": "^0.15.0",
     "typescript": "^3.8.3"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
