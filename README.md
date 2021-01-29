@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/github/IBM/sql-query-node-sdk.svg?token=eW5FVD71iyte6tTby8gr&branch=master)](https://travis-ci.com/github/IBM/sql-query-node-sdk)
+[![Build Status](https://travis-ci.com/IBM/sql-query-node-sdk.svg?branch=main)](https://travis-ci.com/IBM/sql-query-node-sdk)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 <!--
 [![npm-version](https://img.shields.io/npm/v/IBM/sql-query-node-sdk.svg)](https://www.npmjs.com/package/sql-query-sdk)
