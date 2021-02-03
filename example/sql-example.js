@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable require-jsdoc */
-const Sqlquery = require('../dist/sql/v2'); // require('sql-query-node-sdk/sql/v1');
-const { IamAuthenticator } = require('../dist/auth'); // require('sql-query-node-sdk/auth');
+const Sqlquery = require('../dist/sql/v2'); // require('@ibm-cloud/ibm-sql-query-sdk/sql/v2');
+const { IamAuthenticator } = require('../dist/auth'); // require('@ibm-cloud/ibm-sql-query-sdk/auth');
 
 if (!process.env.SQL_API_KEY || !process.env.INSTANCE_CRN || !process.env.TARGET) {
   throw new Error(

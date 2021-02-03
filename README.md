@@ -60,8 +60,8 @@ npm install @ibm-cloud/ibm-sql-query-sdk
 ## Using the SDK
 
 ```
-const Sqlquery = require('sql-query-node-sdk/sql/v1');
-const { IamAuthenticator } =require('sql-query-node-sdk/auth');
+const Sqlquery = require('@ibm-cloud/ibm-sql-query-sdk/sql/v2');
+const { IamAuthenticator } =require('@ibm-cloud/ibm-sql-query-sdk/auth');
 
 // Create an IAM authenticator.
 const authenticator = new IamAuthenticator({
