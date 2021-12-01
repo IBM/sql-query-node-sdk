@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.3...v1.0.4) (2021-12-01)
+
+
+### Bug Fixes
+
+* remove codecov ([#6](https://github.com/IBM/sql-query-node-sdk/issues/6)) ([e423a3f](https://github.com/IBM/sql-query-node-sdk/commit/e423a3fb7648923d373f7377a610e22a0959b94f))
+
 ## [1.0.3](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.2...v1.0.3) (2021-09-21)
 
 
