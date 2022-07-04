@@ -3,8 +3,8 @@
 <!--
 [![npm-version](https://img.shields.io/npm/v/IBM/sql-query-node-sdk.svg)](https://www.npmjs.com/package/sql-query-sdk)
 -->
-# SQL Query Node.js SDK
-The IBM Cloud SqlQuery Node SDK allows developers to programmatically interact with SQL Query.
+# Data Engine Node.js SDK
+The IBM Cloud Data Engine Node SDK allows developers to programmatically interact with Data Engine.
 
 Disclaimer: this SDK is being released initially as a **pre-release** version.
 Changes might occur which impact applications that use this SDK.
@@ -38,11 +38,11 @@ Changes might occur which impact applications that use this SDK.
 <!-- --------------------------------------------------------------- -->
 ## Overview
 
-The IBM Cloud SQL Query Node.js SDK allows developers to programmatically interact with the following service.
+The IBM Cloud Data Engine Node.js SDK allows developers to programmatically interact with the following service.
 
 Service Name | Import Path
 --- | ---
-[SQL Query](https://cloud.ibm.com/apidocs/sql-query) | sql-query-sdk/sql/v2
+[Data Engine](https://cloud.ibm.com/apidocs/sql-query-v2) | sql-query-sdk/sql/v2
 
 ## Prerequisites
 * You need an [IBM Cloud][ibm-cloud-onboarding] account.
