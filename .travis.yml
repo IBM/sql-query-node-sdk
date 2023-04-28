@@ -5,7 +5,7 @@ sudo: false
 branches:
   only:
   - main
-  - gh-readonly-queue/main/.+
+  - /.*/
 
 node_js:
 - 16
