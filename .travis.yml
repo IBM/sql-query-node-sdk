@@ -9,7 +9,6 @@ branches:
 
 node_js:
 - 16
-- 18
 
 script:
 - npm run build
