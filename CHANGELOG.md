@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.5...v1.0.6) (2023-04-28)
+
+
+### Bug Fixes
+
+* travis ([7874fc2](https://github.com/IBM/sql-query-node-sdk/commit/7874fc2d9fea893ce4f2d7b29e79d339cd470e0c))
+
 ## [1.0.5](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.4...v1.0.5) (2023-04-28)
 
 
