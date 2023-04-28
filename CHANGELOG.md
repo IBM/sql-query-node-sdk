@@ -1,3 +1,13 @@
+## [1.0.5](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.4...v1.0.5) (2023-04-28)
+
+
+### Bug Fixes
+
+* new package-lock format ([21ae7a9](https://github.com/IBM/sql-query-node-sdk/commit/21ae7a9171bf8639733ca3d05538ed5259a86a25))
+* new package-lock format ([7b338c2](https://github.com/IBM/sql-query-node-sdk/commit/7b338c263daff74adaae94f296cf7653ad55a1c1))
+* package meta ([b49af11](https://github.com/IBM/sql-query-node-sdk/commit/b49af11a2d1e69a48e809b2ed1f4708039525453))
+* setup travis for merge branch ([b20ba27](https://github.com/IBM/sql-query-node-sdk/commit/b20ba27a52af8caf16b310b3f38714513cd0edfa))
+
 ## [1.0.4](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.3...v1.0.4) (2021-12-01)
 
 
