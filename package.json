@@ -66,6 +66,7 @@
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
+    "modulePathIgnorePatterns": ["integration"],
     "coveragePathIgnorePatterns": [
       "<rootDir>/test/",
       "<rootDir>/example/"
