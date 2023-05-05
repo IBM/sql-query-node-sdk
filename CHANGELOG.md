@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.8...v1.0.9) (2023-05-05)
+
+
+### Bug Fixes
+
+* **deps:** bump highlight.js and typedoc ([#38](https://github.com/IBM/sql-query-node-sdk/issues/38)) ([f8cdd81](https://github.com/IBM/sql-query-node-sdk/commit/f8cdd81bcb6fc6aa65770f4a7846b671fc4e2aaf))
+
 ## [1.0.8](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.7...v1.0.8) (2023-05-05)
 
 
