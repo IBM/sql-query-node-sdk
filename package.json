@@ -1,6 +1,6 @@
 {
   "name": "@ibm-cloud/ibm-sql-query-sdk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "IBM SQL Query Node.js SDK",
   "repository": {
     "type": "git",
@@ -66,7 +66,9 @@
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
-    "modulePathIgnorePatterns": ["integration"],
+    "modulePathIgnorePatterns": [
+      "integration"
+    ],
     "coveragePathIgnorePatterns": [
       "<rootDir>/test/",
       "<rootDir>/example/"

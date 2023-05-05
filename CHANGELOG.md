@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.7...v1.0.8) (2023-05-05)
+
+
+### Bug Fixes
+
+* **deps:** bump jsonwebtoken and ibm-cloud-sdk-core ([#31](https://github.com/IBM/sql-query-node-sdk/issues/31)) ([ba57cb6](https://github.com/IBM/sql-query-node-sdk/commit/ba57cb67e7dad0078fd557574e37b7e9bf75617b))
+
 ## [1.0.7](https://github.com/IBM/sql-query-node-sdk/compare/v1.0.6...v1.0.7) (2023-04-28)
 
 
