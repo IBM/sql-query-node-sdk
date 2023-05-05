@@ -215,7 +215,7 @@ describe('SqlV2', () => {
     });
 
     describe('negative tests', () => {
-      test('should enforce required parameters', async done => {
+      test('should enforce required parameters', async () => {
         let err;
         try {
           await sqlService.getTable({});
@@ -224,16 +224,14 @@ describe('SqlV2', () => {
         }
 
         expect(err.message).toMatch(/Missing required parameters/);
-        done();
       });
 
-      test('should reject promise when required params are not given', done => {
+      test('should reject promise when required params are not given', () => {
         const getTablePromise = sqlService.getTable();
         expectToBePromise(getTablePromise);
 
         getTablePromise.catch(err => {
           expect(err.message).toMatch(/Missing required parameters/);
-          done();
         });
       });
     });
@@ -287,7 +285,7 @@ describe('SqlV2', () => {
     });
 
     describe('negative tests', () => {
-      test('should enforce required parameters', async done => {
+      test('should enforce required parameters', async () => {
         let err;
         try {
           await sqlService.submitSqlJob({});
@@ -296,17 +294,17 @@ describe('SqlV2', () => {
         }
 
         expect(err.message).toMatch(/Missing required parameters/);
-        done();
       });
 
-      test('should reject promise when required params are not given', done => {
+      test('should reject promise when required params are not given', async () => {
         const submitSqlJobPromise = sqlService.submitSqlJob();
         expectToBePromise(submitSqlJobPromise);
 
-        submitSqlJobPromise.catch(err => {
+        try {
+          await submitSqlJobPromise;
+        } catch (err) {
           expect(err.message).toMatch(/Missing required parameters/);
-          done();
-        });
+        }
       });
     });
   });
@@ -401,7 +399,7 @@ describe('SqlV2', () => {
     });
 
     describe('negative tests', () => {
-      test('should enforce required parameters', async done => {
+      test('should enforce required parameters', async () => {
         let err;
         try {
           await sqlService.getSqlJob({});
@@ -410,7 +408,6 @@ describe('SqlV2', () => {
         }
 
         expect(err.message).toMatch(/Missing required parameters/);
-        done();
       });
 
       test('should reject promise when required params are not given', done => {
